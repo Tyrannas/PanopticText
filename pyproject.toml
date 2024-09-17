@@ -9,11 +9,12 @@ description = "A generic panoptic plugin"
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
-
+dependencies = [
+    bertopic,
+    scikit-learn
+]
 [project.urls]
-Homepage = "https://github.com/CERES-Sorbonne/PanopticPlugin"
-
-[project.dependencies]
+Homepage = "https://github.com/Tyrannas/PanopticText"
 
 [tool.hatch.build.hooks]
 after-install = "plugin.utils:after_install"
