@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "generic_plugin"
+version = "0.1.0"
+description = "A generic panoptic plugin"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+[project.urls]
+Homepage = "https://github.com/CERES-Sorbonne/PanopticPlugin"
+
+[project.dependencies]
+
+[tool.hatch.build.hooks]
+after-install = "plugin.utils:after_install"
