@@ -18,7 +18,7 @@ Homepage = "https://github.com/Tyrannas/PanopticText"
 
 
 [tool.hatch.build.targets.sdist]
-include = [
-    "/plugin"
+packages = [
+    "plugin"
 ]
 ignore-vcs = true
