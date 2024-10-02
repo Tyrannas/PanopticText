@@ -17,7 +17,7 @@ dependencies = [
 Homepage = "https://github.com/Tyrannas/PanopticText"
 
 
-[tool.hatch.build.targets.sdist]
+[tool.hatch.build.targets.wheel]
 packages = [
     "plugin"
 ]
