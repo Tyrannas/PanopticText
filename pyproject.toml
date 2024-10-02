@@ -15,3 +15,10 @@ dependencies = [
 ]
 [project.urls]
 Homepage = "https://github.com/Tyrannas/PanopticText"
+
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/plugin"
+]
+ignore-vcs = true
