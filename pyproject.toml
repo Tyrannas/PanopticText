@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "generic_plugin"
+name = "panoptic_text"
 version = "0.1.0"
 description = "A generic panoptic plugin"
 readme = "README.md"
