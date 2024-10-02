@@ -15,6 +15,3 @@ dependencies = [
 ]
 [project.urls]
 Homepage = "https://github.com/Tyrannas/PanopticText"
-
-[tool.hatch.build.hooks]
-after-install = "plugin.utils:after_install"
