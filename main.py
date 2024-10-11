@@ -19,8 +19,6 @@ from .utils import raw_stopword_list
 class PluginExample(APlugin):
     def __init__(self, project: PluginProjectInterface, plugin_path: str):
         super().__init__(name='TextePlugin', project=project, plugin_path=plugin_path)
-        self.params = TestParams()
-
         self.add_action_easy(self.cluster_text_syntax, ['group'])
         self.add_action_easy(self.cluster_text_semantic, ['group'])
 
