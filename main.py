@@ -13,7 +13,7 @@ from panoptic.core.plugin.plugin import APlugin
 from panoptic.core.plugin.plugin_project_interface import PluginProjectInterface
 from panoptic.models import ActionContext, PropertyId, InstanceProperty, PropertyType, PropertyMode, DbCommit
 from panoptic.models.results import ActionResult, Group
-from panoptic.plugins.TextPlugin.utils import raw_stopword_list
+from .utils import raw_stopword_list
 
 
 class PluginBase(APlugin):
