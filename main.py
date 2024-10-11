@@ -16,7 +16,7 @@ from panoptic.models.results import ActionResult, Group
 from .utils import raw_stopword_list
 
 
-class PluginBase(APlugin):
+class PluginExample(APlugin):
     def __init__(self, project: PluginProjectInterface, plugin_path: str):
         super().__init__(name='TextePlugin', project=project, plugin_path=plugin_path)
         self.params = TestParams()
